@@ -1,0 +1,123 @@
+.Layout {
+    width: 400px; 
+    height: 700px; 
+    background-color: #b71cf4;
+    color: white; 
+    padding-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 0 5px #cb75ed, 0 0 25px #cb75ed;
+    padding: 25px;
+}
+
+p{
+    font-size: 20px;
+    
+}
+
+a{
+    color: white;
+}
+
+.Home{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.NavElement{
+    padding-bottom: 20px;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-size: 20px;
+}
+
+.NavContainer{
+    background-color: #900cc4;
+}
+
+.content{
+    width: 800px; 
+    height: 700px; 
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 15px;
+    color: white;
+}
+
+.container {
+    display: flex; 
+    flex-direction: row;
+    border: #900cc4 3px; 
+    background-color: black;
+}
+
+.jokeContainer {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 3em;
+    border: #BC13FE;
+    border-style: solid;
+    box-shadow: 0 0 5px #cb75ed, 0 0 25px #cb75ed;
+}
+
+.joke{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.flags{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnflag {
+    background: #BC13FE;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    box-shadow: 0 0 5px #8024a5, 0 0 25px #b835ec;
+}
+
+
+.btn{
+    position: relative;
+    background: #BC13FE;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    transition: 0.2s;
+    box-shadow: 0 0 5px #cb75ed, 0 0 25px #cb75ed;
+}
+
+.btn:hover{
+    letter-spacing: 0.2rem;
+    padding: 1.1rem 3.1rem;
+    background: #BC13FE;
+    color: white;
+    animation: box 3s infinite;
+    box-shadow: 0 0 5px #cb75ed, 0 0 25px #cb75ed, 0 0 50px #cb75ed, 0 0 100px #cb75ed, 0 0 200px #cb75ed;
+}
+
+h1{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #BC13FE, 0 0 40px #BC13FE, 0 0 50px #BC13FE, 0 0 60px #BC13FE, 0 0 70px #BC13FE;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #BC13FE, 0 0 40px #BC13FE, 0 0 50px #BC13FE, 0 0 60px #BC13FE, 0 0 70px #BC13FE, 0 0 80px #BC13FE;
+    }
+  }
